@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 namespace TreinoAPI.Controllers
 {
     [ApiController]
-    [Route("[Controller}")]
+    [Route("[Controller]")]
     public class ExerciciosController : ControllerBase
     {
         private readonly DataContext _context;
