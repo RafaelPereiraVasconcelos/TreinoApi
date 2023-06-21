@@ -31,3 +31,10 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+app.UseRouting();
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+});
